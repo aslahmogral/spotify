@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*header section*/
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+    padding-left: 20px;
+}
+
+.logo{
+    width: 60vw;
+    
+}
+.navbar{
+    width: 40vw;
+}
+
+.navUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.navLi{
+    list-style-type: none;
+}
+
+
+
+
+/*main section*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    background-color: green;
+    color: white;
+    
+
+}
+
+.pTag{
+    padding: 20px;
+}
+
+/*footer section*/
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.topFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30vh;
+    padding-top: 10vh;
+
+}
+
+.footerLi{
+    list-style-type: none;
+}
+
+
+/*bottom footer*/
+
+footer{
+    
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
+
+.bottomFooter{
+    display: flex;
+    flex-direction: row;
+  
+
+}
+
+.startUl{
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+}
+
+.startLi{
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.endLi{
+    display: flex;
+    list-style-type: none;
+}
+
+
